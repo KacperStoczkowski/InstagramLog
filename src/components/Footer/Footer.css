@@ -1,0 +1,25 @@
+.footer {
+    height: 100px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #8E8E8E;
+    padding: 0 60px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footerMenu {
+    color: #8E8E8E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

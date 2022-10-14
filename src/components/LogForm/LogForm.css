@@ -1,0 +1,127 @@
+.logForm {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logFormUpper {
+    height: 420px;
+    width: 100%;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputLogForm {
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    border: 1px solid #DBDBDB ;
+    border-color: #DBDBDB;
+}
+
+.submit {
+    width: 73%;
+    margin-top: 15px;
+    height: 30px;
+    background-color: #0095F6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.or {
+    margin: 20px 0;
+    color: #8E8E8E;
+    font-size: 14px;
+    font-weight:500;
+}
+
+.logViaFacebook {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.register { 
+    border: 1px solid #DBDBDB;
+    height: 80px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.logoImage {
+    width: 50%;
+}
+
+.iconFb {
+    width: 7%;
+    margin-right: 4%;
+}
+
+.facebookLink {
+    text-decoration: none;
+    font-weight: 800;
+    color: #385185;
+}
+
+.registrationLink {
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: 800;
+    margin-left: 3%;
+}
+
+.linkForm {
+    text-decoration: none;
+    color: #385185;
+    font-size: 13px;
+    font-weight:500;
+}
+
+.downloadApp {
+    height: 80px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.app img {
+ width: 100px;
+ height: 35px;
+ border-radius: 5px;
+}

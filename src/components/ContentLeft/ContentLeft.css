@@ -1,0 +1,9 @@
+.phones {
+    height: 600px;
+    width: 25%;
+    background: url('../../images/phones.png') no-repeat;
+    background-size: 100%;
+    display:inline-block;
+    margin: 20px 20px 0 0;
+;}
+
