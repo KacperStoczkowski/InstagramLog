@@ -7,5 +7,4 @@ const ContentLeft = () => {
     );
 };
 
-
 export default ContentLeft;

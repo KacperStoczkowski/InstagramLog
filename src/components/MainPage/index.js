@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from '../Footer';
-import './MainPage.css';
 import ContentPage from '../ContentPage';
+import './MainPage.css';
 
 const MainPage = () => {
     return (
         <div className="mainPage">
-        <ContentPage/>
-        <Footer/>
+            <ContentPage/>
+            <Footer/>
         </div>
     );
 };

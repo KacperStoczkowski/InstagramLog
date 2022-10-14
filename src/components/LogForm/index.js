@@ -4,11 +4,8 @@ import { useFormik } from 'formik';
 import './LogForm.css';
 import logo from '../../images/logo.png';
 import icon from '../../images/icon.png';
-import appstore from '../../images/appstore.png';
-import googleplay from '../../images/googleplay.png';
-
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
-import RegistrationForm from "../RegistrationForm";
+import DownloadApp from "../DownloadApp";
+import { Link } from 'react-router-dom';
 
 const LogForm = () => {
     const validationSchema = yup.object ({
@@ -78,39 +75,27 @@ const LogForm = () => {
                 ></input>
 
                 <button className="submit">Zaloguj się</button>
-
-                {loginError}
-                {passwordError}
-
-                <div className="or">LUB</div>
-
-                <div className="logViaFacebook">
-                    <img src={icon} className="iconFb"/>
-                    <a href="https://www.facebook.com" className="facebookLink">Zaloguj się przez Facebooka</a>
-                </div>
-
-                <Link to="#" className="linkForm"><p>Nie pamiętasz hasła?</p></Link>
-
             </form>
+
+            {loginError}
+            {passwordError}
+
+            <div className="or">LUB</div>
+
+            <div className="logViaFacebook">
+                <img src={icon} className="iconFb"/>
+                <a href="https://www.facebook.com" className="facebookLink">Zaloguj się przez Facebooka</a>
+            </div>
+
+            <Link to="#" className="linkForm"><p>Nie pamiętasz hasła?</p></Link>     
         </div>
-            <div className="register">
+
+        <div className="register">
             <p>Nie masz konta?</p>
             <Link to="RegistrationForm" className="registrationLink">Zarejestruj się</Link>
         </div>
 
-        <div className="downloadApp">
-            <p>Pobierz aplikację.</p>
-
-            <div className="app">
-                <a href="https://www.apple.com/pl/app-store/">
-                    <img src={appstore}/>
-                </a>
-
-                <a href="https://store.google.com/regionpicker">
-                    <img src={googleplay}/>
-                </a>
-            </div>
-        </div>
+        <DownloadApp/>
     </div>
     );
 };

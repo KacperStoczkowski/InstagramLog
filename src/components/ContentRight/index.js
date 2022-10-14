@@ -1,6 +1,6 @@
 import React from "react";
-import "./ContentRight.css";
 import LogForm from '../LogForm';
+import "./ContentRight.css";
 
 const ContentRight = () => {
     return (
